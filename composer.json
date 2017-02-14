@@ -1,0 +1,23 @@
+{
+	"name": "bkremenovic/shoppingcart",
+	"description": "Shopping Cart for Laravel 5",
+	"keywords": ["laravel", "shoppingcart"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "bkremenovic",
+			"email": "bkremenovic@croz.net"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
+		"illuminate/session": "5.1.*|5.2.*|5.3.*|5.4.*",
+		"illuminate/events": "5.1.*|5.2.*|5.3.*|5.4.*"
+	},
+	"autoload": {
+        "psr-4": {
+            "Bkremenovic\\Shoppingcart\\": "src/"
+        }
+    }
+}
